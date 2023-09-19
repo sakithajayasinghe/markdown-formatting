@@ -2,13 +2,16 @@
 #Sep 18,2023
 ---
 ##Relation 1
+
 |**Vehicleid**|**VehicleType**|
 |---          |---            |
 |001          |Bike           |
 |002          |Car            |
 |003          |Van            |
 |004          |Jeep           |
+
 ##Relation 2
+
 |**Vehicleid**|**SparepartName**|
 |---          |---            |
 |001          |Bike Motor          |
@@ -17,8 +20,11 @@
 |004          |Jeep Buffer          |
 
 `Find the relation of VehicleType=SparepartName`
+
 ##Cross Product
+
 ##Relation 1 X Relation 2
+
 |**Vehicleid**|**VehicleType**|**Vehicleid**|**SparepartName**|
 |---          |---            |---	    |---	      |
 |001          |Bike           |001          |Bike Motor       |
@@ -39,6 +45,7 @@
 |004          |Jeep           |004          |Jeep Buffer      |
 
 ##Filter 
+
 >Relation 1.**Vehicleid**=Relation 2.**Vehicleid**
 
 |**Vehicleid**|**VehicleType**|**Vehicleid**|**SparepartName**|
@@ -49,6 +56,7 @@
 |004          |Jeep           |004          |Jeep Buffer      |
 
 ##Projection
+
 >(VehicleType,SparepartName)
 
 |**VehicleType**|**SparepartName**|
