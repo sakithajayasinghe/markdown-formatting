@@ -68,7 +68,7 @@
 |003          |"john"           |2                |006          |"Snow"           |3                |
 
 #Fillter
->Count(empid = supervisor id)>=2
+>e1.Supervisorid !=0 or e2.Supervisorid !=0
 
 |**Employeeid**|**EmployeeName**|**Supervisor id**|**Employeeid**|**EmployeeName**|**Supervisor id**|
 |---          |---              |---              |---          |---              |---              |
